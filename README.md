@@ -1,16 +1,13 @@
-# games
+## Flutter Clean Architecture with Cubit & TDD
+This repository is a Flutter project sample demonstrating Clean Architecture with Cubit and Test-Driven Development (TDD). The app is structured into three layers to ensure scalability and maintainability:
 
-A new Flutter project.
+Domain Layer – Contains business logic and use cases.
+Data Layer – Manages repositories, API calls, and local storage.
+UI Layer – Handles presentation logic using Cubit for state management.
+Testing
+The project follows a TDD approach, ensuring reliability through:
+Unit Tests – Testing individual functions and business logic.
+Widget Tests – Verifying UI components and interactions.
+Integration Tests – Ensuring smooth app flow and API interactions.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This sample serves as a best-practice guide for structuring large-scale Flutter apps with Clean Architecture and Cubit while maintaining high test coverage for robust applications. 
